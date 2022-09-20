@@ -1,0 +1,144 @@
+body{
+  background: url(../img/1619324388_17-phonoteka_org-p-futbolnii-myach-fon-19.jpg);
+}
+.footbollist{
+  font-size: 30px;
+  font-family: "Kelly Slab";
+  font-weight: 900;
+  color: blue;
+  text-align: center;
+  padding:10px;
+  text-shadow: 0px 0px 12px white;
+  text-decoration: underline red;
+}
+.graniza_blok{
+  max-width: 340px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.616);
+  border: 10px ridge rgb(255, 153, 0);
+  border-radius: 6%;
+  
+}
+.kartinka{
+  text-align: center;
+}
+.kartinka img{
+  width: 190px;
+  box-shadow: 6px 7px 10px rgb(214, 214, 214);
+}
+.text{
+  display: flex;
+  justify-content:center;
+  margin: 20px 0px 20px 0px;
+}
+.spisok{
+  max-width: 300px;
+  border: 10px dotted rgba(98, 0, 255, 0.651);
+  background-color: rgba(13, 0, 129, 0.863);
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 50px;
+  padding: 10px;
+  color: darkmagenta;
+  text-decoration: underline rgb(5, 87, 9);
+  border-radius: 6%;
+  box-shadow: 6px 7px 10px rgb(214, 214, 214);
+}
+.prozent{
+  font-family: Arial;
+}
+
+
+
+@media(max-width:2200px) {
+  .graniza_blok{
+    max-width: 1100px;
+  }
+  .kartinka img{
+    width: 400px;
+  }
+  .spisok{
+    max-width: 1000px;}
+    .footbollist{
+  font-size: 50px;
+  }
+}
+@media(max-height:1400px) {
+  .graniza_blok{
+    max-width: 1100px;
+  }
+  .kartinka img{
+    width: 400px;
+  }
+  .spisok{
+    max-width: 1000px;
+  }
+  .footbollist{
+  font-size: 50px;
+  }
+}
+
+
+@media(max-width:480px ) {
+  .graniza_blok{
+    max-width: 350px;
+  }
+  .kartinka img{
+    width: 190px;
+  }
+  .spisok{
+    max-width: 300px;
+  }
+  .footbollist{
+    font-size: 30px;}
+}
+@media(max-height:320px) {
+  .graniza_blok{
+    max-width: 350px;
+  }
+  .kartinka img{
+    width: 190px;
+   
+  }
+  .footbollist{
+    max-width: 300px;
+    
+  }
+  .strelok{
+    font-size: 30px;}
+}
+
+
+@media(max-width:320px ) {
+  .graniza_blok{
+    max-width: 680px;
+  }
+  .kartinka img{
+    width: 320px;
+    
+  }
+  .spisok{
+    max-width: 580px;
+    
+  }
+  .footbollist{
+    font-size: 40px;
+  }
+}
+@media(max-height:480px) {
+  .graniza_blok{
+    max-width: 680px;
+  }
+  .kartinka img{
+    width: 320px;
+   
+  }
+  .spisok{
+    max-width: 580px;
+    
+  }
+  .footbollist{
+    font-size: 40px;
+  }
+}
