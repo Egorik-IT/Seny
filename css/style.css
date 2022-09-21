@@ -93,7 +93,7 @@ body{
   .footbollist{
     font-size: 30px;}
 }
-@media(max-height:320px) {
+@media(max-height:300px) {
   .graniza_blok{
     max-width: 350px;
   }
@@ -110,7 +110,7 @@ body{
 }
 
 
-@media(max-width:320px ) {
+@media(max-width:300px ) {
   .graniza_blok{
     max-width: 680px;
   }
