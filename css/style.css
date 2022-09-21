@@ -48,7 +48,42 @@ body{
 .prozent{
   font-family: Arial;
 }
+.knopka{
+  font-size: 40px;
+  background-color: chartreuse;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 40%;
+  padding: 10px;
+}
+.knopka:hover{
+  background-color: black;
+}
+.knopka a:hover{
+  color: red;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
 
 
 @media(max-width:2200px) {
